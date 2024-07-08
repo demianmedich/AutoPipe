@@ -1,6 +1,7 @@
 [project]
-name = "myproject"
+name = "autopipe"
 version = "0.0.1"
+readme = "README.md"
 
 [project.optional-dependencies]
 dev = [
@@ -10,3 +11,7 @@ dev = [
     "coverage",
     "pre-commit",
 ]
+
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
